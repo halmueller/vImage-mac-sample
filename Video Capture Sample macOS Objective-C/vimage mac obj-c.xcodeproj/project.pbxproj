@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBDFED38205E1F8200C8CC45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDFED37205E1F8200C8CC45 /* AppDelegate.m */; };
+		FBDFED3B205E1F8200C8CC45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDFED3A205E1F8200C8CC45 /* ViewController.m */; };
+		FBDFED3D205E1F8200C8CC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDFED3C205E1F8200C8CC45 /* Assets.xcassets */; };
+		FBDFED40205E1F8200C8CC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDFED3E205E1F8200C8CC45 /* Main.storyboard */; };
+		FBDFED43205E1F8200C8CC45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDFED42205E1F8200C8CC45 /* main.m */; };
+		FBDFED4E205E1F8300C8CC45 /* vimage_mac_obj_cTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDFED4D205E1F8300C8CC45 /* vimage_mac_obj_cTests.m */; };
+		FBDFED59205E1F8300C8CC45 /* vimage_mac_obj_cUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDFED58205E1F8300C8CC45 /* vimage_mac_obj_cUITests.m */; };
+		FBDFED68205E1FCA00C8CC45 /* PANRVideoSampleChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDFED67205E1FCA00C8CC45 /* PANRVideoSampleChecker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBDFED4A205E1F8300C8CC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBDFED2B205E1F8200C8CC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBDFED32205E1F8200C8CC45;
+			remoteInfo = "vimage mac obj-c";
+		};
+		FBDFED55205E1F8300C8CC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBDFED2B205E1F8200C8CC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBDFED32205E1F8200C8CC45;
+			remoteInfo = "vimage mac obj-c";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBDFED33205E1F8200C8CC45 /* vimage mac obj-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vimage mac obj-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDFED36205E1F8200C8CC45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBDFED37205E1F8200C8CC45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBDFED39205E1F8200C8CC45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBDFED3A205E1F8200C8CC45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBDFED3C205E1F8200C8CC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBDFED3F205E1F8200C8CC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBDFED41205E1F8200C8CC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDFED42205E1F8200C8CC45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBDFED44205E1F8200C8CC45 /* vimage_mac_obj_c.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vimage_mac_obj_c.entitlements; sourceTree = "<group>"; };
+		FBDFED49205E1F8300C8CC45 /* vimage mac obj-cTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vimage mac obj-cTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDFED4D205E1F8300C8CC45 /* vimage_mac_obj_cTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vimage_mac_obj_cTests.m; sourceTree = "<group>"; };
+		FBDFED4F205E1F8300C8CC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDFED54205E1F8300C8CC45 /* vimage mac obj-cUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vimage mac obj-cUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDFED58205E1F8300C8CC45 /* vimage_mac_obj_cUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vimage_mac_obj_cUITests.m; sourceTree = "<group>"; };
+		FBDFED5A205E1F8300C8CC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDFED66205E1FCA00C8CC45 /* PANRVideoSampleChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PANRVideoSampleChecker.h; sourceTree = "<group>"; };
+		FBDFED67205E1FCA00C8CC45 /* PANRVideoSampleChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PANRVideoSampleChecker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBDFED30205E1F8200C8CC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFED46205E1F8300C8CC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFED51205E1F8300C8CC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBDFED2A205E1F8200C8CC45 = {
+			isa = PBXGroup;
+			children = (
+				FBDFED35205E1F8200C8CC45 /* vimage mac obj-c */,
+				FBDFED4C205E1F8300C8CC45 /* vimage mac obj-cTests */,
+				FBDFED57205E1F8300C8CC45 /* vimage mac obj-cUITests */,
+				FBDFED34205E1F8200C8CC45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDFED34205E1F8200C8CC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFED33205E1F8200C8CC45 /* vimage mac obj-c.app */,
+				FBDFED49205E1F8300C8CC45 /* vimage mac obj-cTests.xctest */,
+				FBDFED54205E1F8300C8CC45 /* vimage mac obj-cUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBDFED35205E1F8200C8CC45 /* vimage mac obj-c */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFED36205E1F8200C8CC45 /* AppDelegate.h */,
+				FBDFED37205E1F8200C8CC45 /* AppDelegate.m */,
+				FBDFED39205E1F8200C8CC45 /* ViewController.h */,
+				FBDFED3A205E1F8200C8CC45 /* ViewController.m */,
+				FBDFED66205E1FCA00C8CC45 /* PANRVideoSampleChecker.h */,
+				FBDFED67205E1FCA00C8CC45 /* PANRVideoSampleChecker.m */,
+				FBDFED3C205E1F8200C8CC45 /* Assets.xcassets */,
+				FBDFED3E205E1F8200C8CC45 /* Main.storyboard */,
+				FBDFED41205E1F8200C8CC45 /* Info.plist */,
+				FBDFED42205E1F8200C8CC45 /* main.m */,
+				FBDFED44205E1F8200C8CC45 /* vimage_mac_obj_c.entitlements */,
+			);
+			path = "vimage mac obj-c";
+			sourceTree = "<group>";
+		};
+		FBDFED4C205E1F8300C8CC45 /* vimage mac obj-cTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFED4D205E1F8300C8CC45 /* vimage_mac_obj_cTests.m */,
+				FBDFED4F205E1F8300C8CC45 /* Info.plist */,
+			);
+			path = "vimage mac obj-cTests";
+			sourceTree = "<group>";
+		};
+		FBDFED57205E1F8300C8CC45 /* vimage mac obj-cUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBDFED58205E1F8300C8CC45 /* vimage_mac_obj_cUITests.m */,
+				FBDFED5A205E1F8300C8CC45 /* Info.plist */,
+			);
+			path = "vimage mac obj-cUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBDFED32205E1F8200C8CC45 /* vimage mac obj-c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDFED5D205E1F8300C8CC45 /* Build configuration list for PBXNativeTarget "vimage mac obj-c" */;
+			buildPhases = (
+				FBDFED2F205E1F8200C8CC45 /* Sources */,
+				FBDFED30205E1F8200C8CC45 /* Frameworks */,
+				FBDFED31205E1F8200C8CC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vimage mac obj-c";
+			productName = "vimage mac obj-c";
+			productReference = FBDFED33205E1F8200C8CC45 /* vimage mac obj-c.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBDFED48205E1F8300C8CC45 /* vimage mac obj-cTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDFED60205E1F8300C8CC45 /* Build configuration list for PBXNativeTarget "vimage mac obj-cTests" */;
+			buildPhases = (
+				FBDFED45205E1F8300C8CC45 /* Sources */,
+				FBDFED46205E1F8300C8CC45 /* Frameworks */,
+				FBDFED47205E1F8300C8CC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBDFED4B205E1F8300C8CC45 /* PBXTargetDependency */,
+			);
+			name = "vimage mac obj-cTests";
+			productName = "vimage mac obj-cTests";
+			productReference = FBDFED49205E1F8300C8CC45 /* vimage mac obj-cTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBDFED53205E1F8300C8CC45 /* vimage mac obj-cUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDFED63205E1F8300C8CC45 /* Build configuration list for PBXNativeTarget "vimage mac obj-cUITests" */;
+			buildPhases = (
+				FBDFED50205E1F8300C8CC45 /* Sources */,
+				FBDFED51205E1F8300C8CC45 /* Frameworks */,
+				FBDFED52205E1F8300C8CC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBDFED56205E1F8300C8CC45 /* PBXTargetDependency */,
+			);
+			name = "vimage mac obj-cUITests";
+			productName = "vimage mac obj-cUITests";
+			productReference = FBDFED54205E1F8300C8CC45 /* vimage mac obj-cUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBDFED2B205E1F8200C8CC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Panopto;
+				TargetAttributes = {
+					FBDFED32205E1F8200C8CC45 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FBDFED48205E1F8300C8CC45 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBDFED32205E1F8200C8CC45;
+					};
+					FBDFED53205E1F8300C8CC45 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBDFED32205E1F8200C8CC45;
+					};
+				};
+			};
+			buildConfigurationList = FBDFED2E205E1F8200C8CC45 /* Build configuration list for PBXProject "vimage mac obj-c" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBDFED2A205E1F8200C8CC45;
+			productRefGroup = FBDFED34205E1F8200C8CC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBDFED32205E1F8200C8CC45 /* vimage mac obj-c */,
+				FBDFED48205E1F8300C8CC45 /* vimage mac obj-cTests */,
+				FBDFED53205E1F8300C8CC45 /* vimage mac obj-cUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBDFED31205E1F8200C8CC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDFED3D205E1F8200C8CC45 /* Assets.xcassets in Resources */,
+				FBDFED40205E1F8200C8CC45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFED47205E1F8300C8CC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFED52205E1F8300C8CC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBDFED2F205E1F8200C8CC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDFED3B205E1F8200C8CC45 /* ViewController.m in Sources */,
+				FBDFED43205E1F8200C8CC45 /* main.m in Sources */,
+				FBDFED68205E1FCA00C8CC45 /* PANRVideoSampleChecker.m in Sources */,
+				FBDFED38205E1F8200C8CC45 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFED45205E1F8300C8CC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDFED4E205E1F8300C8CC45 /* vimage_mac_obj_cTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDFED50205E1F8300C8CC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDFED59205E1F8300C8CC45 /* vimage_mac_obj_cUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBDFED4B205E1F8300C8CC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBDFED32205E1F8200C8CC45 /* vimage mac obj-c */;
+			targetProxy = FBDFED4A205E1F8300C8CC45 /* PBXContainerItemProxy */;
+		};
+		FBDFED56205E1F8300C8CC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBDFED32205E1F8200C8CC45 /* vimage mac obj-c */;
+			targetProxy = FBDFED55205E1F8300C8CC45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBDFED3E205E1F8200C8CC45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDFED3F205E1F8200C8CC45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBDFED5B205E1F8300C8CC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FBDFED5C205E1F8300C8CC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBDFED5E205E1F8300C8CC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "vimage mac obj-c/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panopto.vimage-mac-obj-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBDFED5F205E1F8300C8CC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "vimage mac obj-c/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panopto.vimage-mac-obj-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBDFED61205E1F8300C8CC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "vimage mac obj-cTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panopto.vimage-mac-obj-cTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vimage mac obj-c.app/Contents/MacOS/vimage mac obj-c";
+			};
+			name = Debug;
+		};
+		FBDFED62205E1F8300C8CC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "vimage mac obj-cTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panopto.vimage-mac-obj-cTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vimage mac obj-c.app/Contents/MacOS/vimage mac obj-c";
+			};
+			name = Release;
+		};
+		FBDFED64205E1F8300C8CC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "vimage mac obj-cUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panopto.vimage-mac-obj-cUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "vimage mac obj-c";
+			};
+			name = Debug;
+		};
+		FBDFED65205E1F8300C8CC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "vimage mac obj-cUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panopto.vimage-mac-obj-cUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "vimage mac obj-c";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBDFED2E205E1F8200C8CC45 /* Build configuration list for PBXProject "vimage mac obj-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDFED5B205E1F8300C8CC45 /* Debug */,
+				FBDFED5C205E1F8300C8CC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDFED5D205E1F8300C8CC45 /* Build configuration list for PBXNativeTarget "vimage mac obj-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDFED5E205E1F8300C8CC45 /* Debug */,
+				FBDFED5F205E1F8300C8CC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDFED60205E1F8300C8CC45 /* Build configuration list for PBXNativeTarget "vimage mac obj-cTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDFED61205E1F8300C8CC45 /* Debug */,
+				FBDFED62205E1F8300C8CC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDFED63205E1F8300C8CC45 /* Build configuration list for PBXNativeTarget "vimage mac obj-cUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDFED64205E1F8300C8CC45 /* Debug */,
+				FBDFED65205E1F8300C8CC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBDFED2B205E1F8200C8CC45 /* Project object */;
+}
