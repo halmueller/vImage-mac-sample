@@ -175,7 +175,7 @@ class ViewController: NSViewController, AVCaptureVideoDataOutputSampleBufferDele
         let histogram = UnsafeMutablePointer<UnsafeMutablePointer<vImagePixelCount>?>(mutating: rgba)
         //        error = vImageHistogramCalculation_ARGB8888(&sourceBuffers, histogram, UInt32(kvImageNoFlags))
         
-        error = vImageHistogramCalculation_ARGBFFFF(&sourceBuffers, histogram, UInt32(histogramBinsCount), 0.0, 1.0, vImage_Flags(kvImageNoFlags))
+        error = vImageHistogramCalculation_ARGBFFFF(&sourceBuffers, histogram, UInt32(histogramBinsCount), 0.0, 1.0, vImage_Flags(kvImagePrintDiagnosticsToConsole))
         guard error == kvImageNoError else {
             return
         }
